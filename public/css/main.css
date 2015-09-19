@@ -1,0 +1,6 @@
+.create {margin-top:20px}
+.card {margin-top:10px; margin-top:10px; padding: 20px; border: solid 1px #ccc}
+.buttons {text-align:center}
+.buttons button {margin-right: 20px}
+a, .question {cursor: pointer; text-decoration: underline}
+a {font-size: 18px}

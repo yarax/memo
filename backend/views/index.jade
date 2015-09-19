@@ -1,0 +1,37 @@
+doctype html
+html(ng-app='memo')
+    head
+        title Memo
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+        link(rel="stylesheet", href="/css/main.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js")
+        script(src="/js/main.js")
+    body(ng-controller="main")
+        div(class="container-fluid")
+            div.cards(ng-if="currentCard")
+                div.card
+                    button.close(type='button', data-dismiss='modal', aria-label='Close')
+                        span(aria-hidden='true', ng-click="deleteCard(currentCard._id)") ×
+                    |Score: {{ currentCard.score||0 }}
+                    h1.question(ng-click='showAnswer=true', align='center') {{currentCard.q}}
+                    div(ng-show="showAnswer")
+                        div.buttons
+                            button.btn.btn-success(type='button', ng-click='showAnswer=false;success()') Good
+                            button.btn.btn-danger(type='button', ng-click='showAnswer=false;fail()') Bad
+                        h1.answer(align='center') {{currentCard.a}}
+            h3 Categories
+            ul
+                li(ng-repeat="cat in categories")
+                    a.category(ng-click="showCategory(cat)") {{ cat }}
+            div.create
+                button.btn(ng-click="createShow = !createShow") Create
+                div(ng-show="createShow")
+                    form.create
+                        .form-group
+                            input.form-control(type='text', placeholder='Question', ng-model='question')
+                        .form-group
+                            input.form-control(type='text', placeholder='Answer', ng-model='answer')
+                        .form-group
+                            input.form-control(type='text', placeholder='Category', ng-model='category')
+                        div(ng-show="created") Created
+                        button.btn.btn-default(type='button', ng-click='submitCreate()') Submit
