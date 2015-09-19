@@ -1,0 +1,31 @@
+{ "_id" : { "$oid" : "55fd2966d4cb783644310114" }, "q" : "Genitiv, на какие вопросы отвечает", "a" : "чей?", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2a12d4cb783644310115" }, "q" : "Dativ, на какие вопросы отвечает", "a" : "кому? чему?", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2a2bd4cb783644310116" }, "q" : "Akkusativ, на какие вопросы отвечает", "a" : "кто? что?", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2ad9d4cb783644310117" }, "q" : "Ich, Dativ", "a" : "mir", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2b06d4cb783644310118" }, "q" : "Он, Akkusativ", "a" : "ihn", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2b18d4cb783644310119" }, "q" : "Он, Dativ", "a" : "ihm", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2b4ad4cb78364431011a" }, "q" : "Ей", "a" : "ihr", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2b50d4cb78364431011b" }, "q" : "Еe", "a" : "sie", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2b70d4cb78364431011c" }, "q" : "Ему", "a" : "ihm", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2b88d4cb78364431011d" }, "q" : "Его", "a" : "es", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2becd4cb78364431011e" }, "q" : "Нам", "a" : "uns", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2bffd4cb78364431011f" }, "q" : "Нас", "a" : "uns", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2c12d4cb783644310120" }, "q" : "Вам", "a" : "euch", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2c1ad4cb783644310121" }, "q" : "Вас", "a" : "euch", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2c54d4cb783644310122" }, "q" : "Им", "a" : "ihnen", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2c5ed4cb783644310123" }, "q" : "Их", "a" : "sie", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2d89d4cb783644310124" }, "q" : "Тебе", "a" : "dir", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd2d8ed4cb783644310125" }, "q" : "Тебя", "a" : "dich", "category" : "Падежи", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd5e89d4cb783644310126" }, "q" : "Когда Ольга кончает работу?", "a" : "Wann hat Olga im Büro Schluss?", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd5f90d4cb783644310127" }, "q" : "Где подруги пьют кофе?", "a" : "Wo trinken die Freundinnen Kaffee?", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd5fa8d4cb783644310128" }, "q" : "Что заказывают гости за соседним столиком?", "a" : "Was bestellen die Gäste am Nebentisch?", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd5fcfd4cb783644310129" }, "q" : "Куда Ольга еще ходит?", "a" : "Wohin geht Olga noch?", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd614cd4cb78364431012a" }, "q" : "Куда ходит Ольга по вторникам и четвергам?", "a" : "Wohin geht Olga dienstags und donnerstags?", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd9795d4cb78364431012b" }, "q" : "Это вкусно", "a" : "Das schmeckt gut", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd97afd4cb78364431012c" }, "q" : "Суп мне нравится", "a" : "Die Suppe schmeckt mir", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd98fed4cb78364431012d" }, "q" : "Мне нравится пицца", "a" : "Ich mag Pizza", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd996fd4cb78364431012e" }, "q" : "Нам нравится пицца", "a" : "Wir mögen Pizza", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd9b2dd4cb78364431012f" }, "q" : "Нет, я не фотографирую.", "a" : "Nein, ich fotografiere nicht", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd9b61d4cb783644310130" }, "q" : "Этот фотоаппарат не хорош", "a" : "Die Kamera ist nicht gut.", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd9b98d4cb783644310131" }, "q" : "Она не моя жена", "a" : "Sie ist nicht meine Frau", "category" : "ru->de", "__v" : 0 }
+{ "_id" : { "$oid" : "55fd9fa2d4cb783644310132" }, "q" : "Вы пьете пиво? Нет, я не пью пиво", "a" : "Trinken Sie Bier? Nein, ich trinke kein Bier", "category" : "ru->de", "__v" : 0 }
